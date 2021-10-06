@@ -7,19 +7,84 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>You can pick and use any of the code commented below</h1>
-    <br /><br />
-    <div id="demo">We are writing JS Code</div>
-    <br /><br />
-    <!--<button onclick='document.getElementById("demo").style.display="none"'>Show Texts</button>-->
 
-          <script>
-              const d = Date.now();
-              document.write(d);
-          </script>
+
+
+    <script>
+  
+        const johnsPhotos = [
+            {"PhotoFullName":"village.jpg", "city_name":"London", "date":"2021-04-14"},
+            {"PhotoFullName":"Book.png", "city_name":"London", "date":"2021-04-13"},
+            {"PhotoFullName":"Bike.jpg", "city_name":"Paris", "date":"2021-04-12"},
+            {"PhotoFullName":"Car.jpg", "city_name":"Paris", "date":"2021-04-11"},
+            {"PhotoFullName":"Ball.jpg", "city_name":"Paris", "date":"2021-04-09"},
+            {"PhotoFullName":"Field.jpg", "city_name":"Paris", "date":"2021-04-06"},
+            {"PhotoFullName":"Camp.jpg", "city_name":"Paris", "date":"2021-04-19"},
+
+   ];
+        alert(johnsPhotos);
+    </script>
+
+
+
+<!-- myWords.sort(function(a,b){return a-b}); -->
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
 
+
+
+<!-- 
+const S = "We test coders. Give us a try?.Now.Try it again and again again.Try it again and again again again";
+solution(S);
+
+function solution(S){
+    const myWords = S.split(".");
+    myWords.sort((a, b) => b.length - a.length);
+    var myLongestWord = myWords[0];
+    const myLongestWordSplit = myLongestWord.split(" ");
+    alert(myLongestWordSplit.length);
+
+} -->
+
+
+
+
+
+<!-- const cars = ["Tesla","Bajaj"];
+cars.sort();
+document.write(cars); -->
+
+   <!--const cars=[8,2,1,7];
+   cars.sort(function(a,b){return a - b});
+   document.write(cars);-->
+
+
+
+
+
+
+
+
+
+
+<!-- document.write(sqrt(4)); -->
+<!-- var test = "Hello Vict";
+ document.write(test.indexOf("Vict")); -->
+<!--<script>
+    const d = new Date();
+    d.setFullYear(2023);
+    document.write(d);
+</script>-->
 <!--<script>
     const myArray = new Array;
     myArray[0] = 12;
